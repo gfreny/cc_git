@@ -8,7 +8,7 @@
 //#include "usb_lib.h"
 #include "usb_regs.h"
 #include "system_defineDES.h"
-//11111111111111111111111111111111111111111111
+
 /********************************
 串口只支持如下
 	switch (baud) {
