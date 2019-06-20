@@ -34,8 +34,8 @@ extern volatile uint32_t Systick_sum;//10ms系统滴答计时
 extern volatile uint32_t 	systicnum;//1ms
 
 uint8_t TypeB_Iso14443=1;//0不支持14443-4协议的，如二代证
-uint8_t bHalBufferReader[256];
-uint8_t bBufferReader[0x60];
+uint8_t bHalBufferReader[26];
+uint8_t bBufferReader[0x50];
 //33333333333333333333333333333
 void *pHal;
 phbalReg_Type_t balReader;
