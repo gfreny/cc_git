@@ -27,7 +27,7 @@
 uint8 sw[3];
 uint8 Receive_Buffer[Max_Rec];
 uint8 Transceive_Buffer[Max_Tra];
-
+//222222222222222222222222222222222222
 //#define Communication_ToPC RS232_Command_ReplyTogether
 
 extern volatile uint32_t Systick_sum;//10ms系统滴答计时
@@ -36,7 +36,7 @@ extern volatile uint32_t 	systicnum;//1ms
 uint8_t TypeB_Iso14443=1;//0不支持14443-4协议的，如二代证
 uint8_t bHalBufferReader[256];
 uint8_t bBufferReader[0x60];
-
+//33333333333333333333333333333
 void *pHal;
 phbalReg_Type_t balReader;
 phhalHw_Rc663_DataParams_t halReader;
@@ -555,3 +555,4 @@ int16	DirLoad_key_E2(uint8	Mode,uint8 *ke)
 	}
 	return 0;
 }
+//444444444444444444444444444444444444444
